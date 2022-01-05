@@ -4,10 +4,10 @@
  - entity > dto
 
 1. Pass an entity to a discount.
-        localhost:8080/api/dto			{ "id": 321, "name": "Caramelo Entity" }
+ - localhost:8080/api/dto			>> { "id": 321, "name": "Caramelo Entity" }
 
 2. Pass a discount to an entity.
-        localhost:8080/api/entity		{ "id": 321, "name": "Caramelo Dto", "type": null }
+ - localhost:8080/api/entity		>> { "id": 321, "name": "Caramelo Dto", "type": null }
 
 ## Run
  - Update Maven Project
